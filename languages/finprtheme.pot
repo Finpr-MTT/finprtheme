@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Automattic
+# Copyright (C) 2020 finpr
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
@@ -19,7 +19,7 @@ msgid "_s"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://underscores.me/"
+msgid "https://finpr.com/"
 msgstr ""
 
 #. Description of the theme
@@ -27,11 +27,11 @@ msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, 
 msgstr ""
 
 #. Author of the theme
-msgid "Automattic"
+msgid "finpr"
 msgstr ""
 
 #. Author URI of the theme
-msgid "https://automattic.com/"
+msgid "https://finpr.com/"
 msgstr ""
 
 #: 404.php:18
