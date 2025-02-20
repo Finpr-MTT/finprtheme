@@ -24,28 +24,7 @@ define('FINPRTHEME_URL', get_stylesheet_directory() . '/');
  */
 class Finprtheme_Checkout {
     public function __construct() {
-        // Include necessary files.
-        $this->finprtheme_includes();
-        $this->finprtheme_init();
-        add_action('wp', [$this, 'finprtheme_split_order_review_checkout']);
-        add_action('wp_enqueue_scripts', [$this, 'finprtheme_scripts_styles'], 20);        
-        add_action('woocommerce_checkout_before_order_review', 'woocommerce_order_review', 10);
-        add_action('woocommerce_checkout_order_review', 'woocommerce_checkout_payment', 20);
-    }
-
-    private function finprtheme_includes() {
-        //require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-helper.php';
-        //require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-product-cart.php';
-    }
-
-    private function finprtheme_init() {
-        //new Finprtheme_Helper();
-        //new Finprtheme_Product_Cart();
-    }
-
-    public function finprtheme_split_order_review_checkout() {
-        remove_action('woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10);
-        remove_action('woocommerce_checkout_order_review', 'woocommerce_order_review', 10);
+        add_action('wp_enqueue_scripts', [$this, 'finprtheme_scripts_styles'], 20);
     }
 
     function finprtheme_scripts_styles()
