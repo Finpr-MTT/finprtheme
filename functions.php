@@ -34,7 +34,7 @@ class Finprtheme_Checkout {
     }
 
     private function finprtheme_includes() {
-        require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-helper.php';
+        //require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-helper.php';
         //require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-product-cart.php';
     }
 
