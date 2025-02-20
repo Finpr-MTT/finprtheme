@@ -39,7 +39,7 @@ class Finprtheme_Checkout {
     }
 
     private function finprtheme_init() {
-        new Finprtheme_Helper();
+        //new Finprtheme_Helper();
         //new Finprtheme_Product_Cart();
     }
 
