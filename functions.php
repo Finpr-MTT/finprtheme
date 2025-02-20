@@ -35,12 +35,12 @@ class Finprtheme_Checkout {
 
     private function finprtheme_includes() {
         require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-helper.php';
-        require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-product-cart.php';
+        //require_once FINPRTHEME_DIR . 'inc/public/class-finprtheme-product-cart.php';
     }
 
     private function finprtheme_init() {
         new Finprtheme_Helper();
-        new Finprtheme_Product_Cart();
+        //new Finprtheme_Product_Cart();
     }
 
     public function finprtheme_split_order_review_checkout() {
