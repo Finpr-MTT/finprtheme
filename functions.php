@@ -29,10 +29,8 @@ class Finprtheme_Checkout {
 
     function finprtheme_scripts_styles()
     {
-        wp_enqueue_style('fin-bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css', [], '5.3.0-alpha3');
         wp_enqueue_style('finprtheme-style', get_stylesheet_directory_uri() . '/style.css', [], FINPRTHEME_VERSION);
         wp_enqueue_style('finpr-theme-style', get_stylesheet_directory_uri() . '/assets/css/finprtheme.css', [], FINPRTHEME_VERSION);
-        wp_enqueue_script('finpr-bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js', ['jquery'], '5.3.0-alpha3', true);
         wp_enqueue_script('finpr-theme-script', get_stylesheet_directory_uri() . '/assets/js/finprtheme.js', [], FINPRTHEME_VERSION, true);
     }
 }
