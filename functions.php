@@ -33,6 +33,7 @@ class Finprtheme_Checkout {
         wp_enqueue_style('finprtheme-style', get_stylesheet_directory_uri() . '/style.css', [], FINPRTHEME_VERSION);
         wp_enqueue_style('finpr-theme-style', get_stylesheet_directory_uri() . '/assets/css/finprtheme.css', [], FINPRTHEME_VERSION);
         wp_enqueue_script('finpr-bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js', ['jquery'], '5.3.0-alpha3', true);
+        wp_enqueue_script('finpr-jquery-easing-js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js', ['jquery'], '1.4.1', true);
         wp_enqueue_script('finpr-theme-script', get_stylesheet_directory_uri() . '/assets/js/finprtheme.js', [], FINPRTHEME_VERSION, true);
     }
 }
