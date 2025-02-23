@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define constants for theme paths.
-define('FINPRTHEME_VERSION', '1.0.1');
+define('FINPRTHEME_VERSION', '1.0.2');
 define('FINPRTHEME_DIR', get_stylesheet_directory() . '/');
 define('FINPRTHEME_URL', get_stylesheet_directory() . '/');
 
